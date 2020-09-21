@@ -2,7 +2,7 @@ _Easy-Weather-Service | jukka.kansanaho@gmail.com | 2020-09-20_
 
 # Easy Weather Service
 
-Target of this project is to build a serverless weather service.
+EasyWeatherService (EWS) is a serverless weather service combining together weather data from various sources.
 
 ## Use Cases
 
@@ -31,15 +31,17 @@ Target of this project is to build a serverless weather service.
 ## Data Structure
 
 - Weather (table)
-  - dt
-  - lat
-  - long
-  - timezone
-  - loc_name
-  - type (current | forecast)
-  - temp
-  - wind_speed
-  - wind_deg
+
+  - lat (latitude)
+  - lon (longitude)
+  - tz (e.g. Europe/Finland)
+  - units (C|F, m/s|mph)
+  - loc_name (e.g. Oulu)
+  - curret_temp
+  - curret_wind_speed
+  - curret_wind_deg
+
+- NOTE: this structure is only for the beginning - will be updated.
 
 ## Project related NOTES
 
